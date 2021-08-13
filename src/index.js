@@ -1,14 +1,5 @@
 import { compose, pipe } from "lodash/fp"
 
-
-
-function sayHello(){
-  return function(){
-    return "Hello World"
-  }
+function(){
+  return 0
 }
-
-let fn = sayHello()
-let message = fn()
-
-console.log(message)
